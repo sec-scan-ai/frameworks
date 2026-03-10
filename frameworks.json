@@ -1,34 +1,29 @@
 {
   "Shopware 5": {
     "default_excludes": [
-      "var/cache",
-      "web/cache"
+      "var/cache"
     ]
   },
   "Shopware 6": {
     "default_excludes": [
-      "var/cache",
-      "public/theme",
-      "public/bundles"
+      "var/cache"
     ]
   },
-  "OXID eShop 6.x": {
-    "default_excludes": [
-      "source/tmp"
-    ]
+  "OXID eShop 6": {
+    "default_excludes": []
   },
-  "OXID eShop 7.x": {
+  "OXID eShop 7": {
     "default_excludes": [
-      "source/tmp",
       "var/cache"
     ]
   },
   "WordPress/WooCommerce": {
-    "default_excludes": [
-      "wp-content/cache"
-    ]
+    "default_excludes": []
   },
-  "Magento": {
+  "Magento 1": {
+    "default_excludes": []
+  },
+  "Magento 2": {
     "default_excludes": [
       "generated/code",
       "generated/metadata",
@@ -36,20 +31,14 @@
       "var/page_cache",
       "var/view_preprocessed",
       "var/session",
-      "var/tmp",
-      "includes/src"
+      "var/tmp"
     ]
   },
   "JTL-Shop 5": {
-    "default_excludes": [
-      "templates_c",
-      "admin/templates_c"
-    ]
+    "default_excludes": []
   },
   "PrestaShop": {
-    "default_excludes": [
-      "var/cache"
-    ]
+    "default_excludes": []
   },
   "Sylius": {
     "default_excludes": [
